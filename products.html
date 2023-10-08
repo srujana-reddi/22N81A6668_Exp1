@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <div class="productsbody">
+
+        <h1 class="heading">Your Looks <br> Matters!!</h3>
+        <img src="specsmodel.png">
+    
+    </div>
+    <h1>My Fashion</h1> 
+      
+    <div class="products"> 
+    <div class="product1"> 
+        <h2>spectacles</h2> 
+        <img src="https://images.pexels.com/photos/39716/pexels-photo-39716.jpeg?auto=compress&cs=tinysrgb&w=400">
+        <p>Price: $30</p> 
+        <button class="add-to-cart" onclick="addToCart('Product 1', 10)">Add to Cart</button> 
+    </div> 
+    
+    <div class="product2"> 
+        <h2>Stylish-specs</h2>
+        <img src="https://images.pexels.com/photos/343720/pexels-photo-343720.jpeg?auto=compress&cs=tinysrgb&w=400" >
+        <p>Price: $50</p> 
+        <button class="add-to-cart" onclick="addToCart('Product 2', 20)">Add to Cart</button> 
+    </div> 
+        </div> 
+    
+    <div class="cart"> 
+        <h2>Shopping Cart</h2> 
+        <ul id="cart-items"></ul> 
+        <p>Total: $<span id="total">0</span></p> 
+        <button onclick="checksout()">Checkout</button>
+        
+        
+        <script src="script.js"></script>
+    
+    </div> 
+    </div> 
+</body>
+</html>
